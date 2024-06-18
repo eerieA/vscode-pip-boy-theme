@@ -1,0 +1,31 @@
+{
+  "name": "pip-boy-retrowave",
+  "icon": "resources/icon.png",
+  "displayName": "Fallout Pip Boy Retrowave dark",
+  "description": "A dark theme based on color pallete from Bethesda's Fallout franchise's iconic gadget Pip-Boy, with a Retrowave touch",
+  "galleryBanner": {
+    "color": "#28493d",
+    "theme": "dark"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fallout Pip Boy Retrowave dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fallout Pip Boy Retrowave dark-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "ninjaqwert-2239-indie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eerieA/vscode-cp2077-red-theme.git"
+  }
+}
